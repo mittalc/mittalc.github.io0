@@ -39,10 +39,11 @@ section:before {
 }
 
 section{
-   background-color: rgba(0, 0, 0, 0.884);
+   background-color: rgba(0, 0, 0, 0.753);
 
 }
 section .container {
+   
    display: inline-block;
    vertical-align: middle;
    margin: 0 auto;
