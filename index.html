@@ -5,6 +5,8 @@
 	<title>CHIRAG MITTAL</title>
    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 	<link rel="stylesheet" href="style.css">
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
        
    <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-L16W17L1NB"></script>
@@ -25,6 +27,8 @@
    <section  >
       <div class="container">
          <div class="inner-container">
+            <!-- <a><img src="me.jpg" class="unselectable"></a> -->
+
             <h1>Chirag Mittal</h1>
             <h3>I'm a motivated individual who firmly believes in the process of continuous learning.
                I have developed projects based on different languages and technologies which I estimate 
@@ -34,16 +38,18 @@
 
             
             <ul >
-               <li><a href="https://github.com/mittalc"><i class="fa fa-github"></i></a></li>
-               <li><a href="https://linkedin.com/in/mittalc" target="_blank"><i class="fa fa-linkedin"></i></a></li>
-               <li><a href="mailto:cmittal115@gmail.com" target="_blank"><i class="fa fa-envelope"></i></a></li>
-               <li><a href="https://drive.google.com/file/d/1k1ZHKLcAVBoQ_SYuI_wLYuL3m2sg7jBY/view" target="_blank"><i class="fa fa-newspaper"></i></a></li>
+               <li ><a href="https://github.com/mittalc" tagert="_blank" data-toggle="tooltip" data-placement="bottom" title="View my Projects" ><i class="fa fa-github" ></i></a></li>
+               <li><a href="https://linkedin.com/in/mittalc" data-toggle="tooltip" data-placement="bottom" title="View my Experience" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+               <li><a href="mailto:cmittal115@gmail.com" target="_blank" data-toggle="tooltip" data-placement="bottom" title="Send me an Email" ><i class="fa fa-envelope"></i></a></li>
+               <li><a href="https://drive.google.com/file/d/1k1ZHKLcAVBoQ_SYuI_wLYuL3m2sg7jBY/view" target="_blank" data-toggle="tooltip" data-placement="bottom" title="View my Resume" ><i class="fa fa-newspaper"></i></a></li>
             </ul>
          </div>
       </div>
    </section> 
 
    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
    <script src="https://kit.fontawesome.com/f2dd3ee0cf.js" crossorigin="anonymous"></script>
    <script src="js/three.min.js"></script>
    <script src="js/vanta.birds.min.js"></script>
@@ -61,6 +67,12 @@
      });
      });
      </script> 
+     <script>
+        $(function () {
+       $('[data-toggle="tooltip"]').tooltip()
+         })
+     </script>
+     
 
 
 </body>

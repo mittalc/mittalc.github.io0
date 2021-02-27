@@ -38,14 +38,30 @@ section:before {
    height: 100%;
 }
 
-section{
+.inner-container{
    background-color: rgba(0, 0, 0, 0.795);
 
 }
 
+img{
+   width: 20%;
+   max-width: 100%;
+   border-style: none;
+   border-radius: 50%;
+   text-shadow:0px 0px 0px 8px rgb(0 0 0 / 6%);
+}
+
+
+}
+
+
+   border-radius: 50%;
+}
 h4{
    color: white;
 }
+
+
 section .container {
    
    display: inline-block;
