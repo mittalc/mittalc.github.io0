@@ -42,6 +42,10 @@ section{
    background-color: rgba(0, 0, 0, 0.795);
 
 }
+
+h4{
+   color: white;
+}
 section .container {
    
    display: inline-block;
