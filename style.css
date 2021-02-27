@@ -38,9 +38,11 @@ section:before {
    height: 100%;
 }
 
-
-section .container {
+section{
    background-color: rgba(0, 0, 0, 0.884);
+
+}
+section .container {
    display: inline-block;
    vertical-align: middle;
    margin: 0 auto;
