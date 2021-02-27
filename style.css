@@ -38,7 +38,7 @@ section:before {
    height: 100%;
 }
 
-.inner-container{
+section{
    background-color: rgba(0, 0, 0, 0.795);
 
 }
