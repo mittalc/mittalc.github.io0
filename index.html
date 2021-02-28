@@ -4,9 +4,11 @@
    <meta charset="utf-8">
 	<title>CHIRAG MITTAL</title>
    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+   <!-- css -->
 	<link rel="stylesheet" href="style.css">
-   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
 
+   <!-- bootstrap css  -->
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
        
    <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-L16W17L1NB"></script>
@@ -14,34 +16,27 @@
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-
   gtag('config', 'G-L16W17L1NB');
 </script>
-
 </head>
 
 
+<!-- loader  -->
 <div class="loader"></div>
+
+<!-- main body  -->
 <body id="body">  
 
+   <!-- card container  -->
    <section  >
       <div class="container">
          <div class="inner-container">
-            <!-- <a><img src="me.jpg" class="unselectable"></a> -->
-            <div class="text-wrapper">
             <h1>Chirag Mittal</h1>
-         </div>
-         <div class="p-wrapper">
             <h3 >Full Stack Developer | AI Enthusiast</h3>
-            
-            <h3 class="diff"> Intern at Kautex Textron
-            </h3>
+            <h3 class="diff"> Intern at Kautex Textron</h3>
             <h3 class="diff">Teaching Assistant at UWindsor</h3>
             <h3 class="diff">Tax Professional at H & R Block</h3>
-         </div>
             <hr>
-
-         <div class="footer">   
             <ul >
                <li ><a href="https://github.com/mittalc" tagert="_blank" data-toggle="tooltip" data-placement="bottom" title="View my Projects" ><i class="fa fa-github" ></i></a></li>
                <li><a href="https://linkedin.com/in/mittalc" data-toggle="tooltip" data-placement="bottom" title="View my Experience" target="_blank"><i class="fa fa-linkedin"></i></a></li>
@@ -49,43 +44,20 @@
                <li><a href="https://drive.google.com/file/d/1k1ZHKLcAVBoQ_SYuI_wLYuL3m2sg7jBY/view" target="_blank" data-toggle="tooltip" data-placement="bottom" title="View my Resume" ><i class="fa fa-newspaper"></i></a></li>
             </ul>
          </div>
-         </div>
       </div>
    </section> 
 
+
+   <!-- javascript -->
    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-
    <script src="https://kit.fontawesome.com/f2dd3ee0cf.js" crossorigin="anonymous"></script>
    <script src="js/three.min.js"></script>
    <script src="js/vanta.birds.min.js"></script>
    <script src="js/vanta.js"></script>
    <script src="js/loader.js"></script>
-
-   <script>
-      window.addEventListener("load", () => {
- document.querySelector("body").classList.add("loaded"); 
-});
-   </script>
-
-   <script >
-   
-      $(document).ready(function($) {
-     $('section').css({ 'height': $(window).height() });
-     $(window).on('resize', function() {
-     
-          $('section').css({ 'height': $(window).height() });
-          $('body').css({ 'width': $(window).width() })
-     });
-     });
-     </script> 
-     <script>
-        $(function () {
-       $('[data-toggle="tooltip"]').tooltip()
-         })
-     </script>
-     
-
+   <script src="js/size.js"></script>
+   <script src="js/tooltip.js"></script>
 
 </body>
 
