@@ -17,14 +17,54 @@
 html{
    margin: 0px;
    padding: 0px;
+
 }
+
+
 
 body{
    background-color: black;
    margin: 0px;
    padding: 0px;
+
 }
 
+
+
+h1 { 
+   animation: fadeInAnimation ease-in-out 5s; 
+   animation-iteration-count: 1; 
+   animation-fill-mode: forwards; 
+} 
+ 
+@keyframes fadeInAnimation { 
+   0% { 
+       opacity: 0; 
+   } 
+   100% { 
+       opacity: 1; 
+    } 
+} 
+
+
+.effect-container { 
+   animation: fadeInAnimation1 ease-out 7s; 
+   animation-iteration-count: 1; 
+   animation-fill-mode: forwards; 
+} 
+ 
+@keyframes fadeInAnimation1 { 
+   0% { 
+       opacity: 0; 
+   } 
+   100% { 
+       opacity: 1; 
+    } 
+} 
+
+
+
+ 
 section {
    position: relative;
    height: 100vh;
@@ -47,7 +87,6 @@ section{
 h4{
    color: white;
 }
-
 
 section .container {
    
@@ -92,19 +131,19 @@ section .inner-container hr {
    border-color: rgba(150, 150, 150, .1);
 }
 
-section ul {
+section .social {
    margin: 24px 0;
    padding: 0;
    font-size: 30px;
    text-shadow: 0px 1px 2px rgba(0, 0, 0, .8);
 }
-section ul li {
+section .social li {
    display: inline-block;
    margin: 0 15px;
    padding: 0;
 }
-section ul li a { color: #fff; }
-section ul li a:hover { color: rgba(219, 17, 255, 0.226)}
+section .social li a { color: #fff; }
+section .social li a:hover { color: rgba(219, 17, 255, 0.226)}
 
 
 
@@ -157,12 +196,12 @@ section ul li a:hover { color: rgba(219, 17, 255, 0.226)}
       margin: 18px auto;
    }
 
-   section ul {
+   section .social {
       margin: 18px 0 24px 0;
       font-size: 24px;
       line-height: 36px;      
    }
-   section ul li { margin: 0 10px; }
+   section .social li { margin: 0 10px; }
 }
 
 
@@ -177,7 +216,7 @@ section ul li a:hover { color: rgba(219, 17, 255, 0.226)}
       width: 90%;
    }
   
-   section ul { font-size: 20px;}
-   section ul li { margin: 0 6px; }
+   section .social { font-size: 20px;}
+   section .social li { margin: 0 6px; }
 
 }
