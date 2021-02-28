@@ -19,7 +19,7 @@
    background: yellow;
 }
 
- 
+
 
 
 
@@ -137,7 +137,7 @@ section ul li {
    padding: 0;
 }
 section ul li a { color: #fff; }
-section ul li a:hover { color: #11ABB0; }
+section ul li a:hover { color: rgba(219, 17, 255, 0.226)}
 
 
 
