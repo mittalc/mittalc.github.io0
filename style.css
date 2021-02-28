@@ -13,6 +13,28 @@
 	background: url('https://media.giphy.com/media/ycfHiJV6WZnQDFjSWH/giphy.gif') 50% 50% no-repeat rgb(0, 0, 0);
 }
 
+
+
+.a:hover{
+   background: yellow;
+}
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 html{
    margin: 0px;
    padding: 0px;
@@ -42,6 +64,8 @@ section{
    background-color: rgba(0, 0, 0, 0.795);
 
 }
+
+
 
 img{
    width: 20%;
