@@ -32,7 +32,7 @@ body{
 
 
 h1 { 
-   animation: fadeInAnimation ease-in-out 5s; 
+   animation: fadeInAnimation ease-in-out 4s; 
    animation-iteration-count: 1; 
    animation-fill-mode: forwards; 
 } 
@@ -48,7 +48,7 @@ h1 {
 
 
 .effect-container { 
-   animation: fadeInAnimation1 ease-out 7s; 
+   animation: fadeInAnimation1 ease-out 5s; 
    animation-iteration-count: 1; 
    animation-fill-mode: forwards; 
 } 
