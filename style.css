@@ -1,7 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;700;800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
 
+
+
 /* global styles */
+
+
+
+/* ------------------------------------------------------------------ */
+/* c. About Section
+/* ------------------------------------------------------------------ */
+
 
 /* loader  */
 .loader {
@@ -32,7 +41,7 @@ body{
 
 
 h1 { 
-   animation: fadeInAnimation ease-in-out 4s; 
+   animation: fadeInAnimation ease-in-out 3s; 
    animation-iteration-count: 1; 
    animation-fill-mode: forwards; 
 } 
@@ -48,7 +57,7 @@ h1 {
 
 
 .effect-container { 
-   animation: fadeInAnimation1 ease-out 5s; 
+   animation: fadeInAnimation1 ease-out 3s; 
    animation-iteration-count: 1; 
    animation-fill-mode: forwards; 
 } 
@@ -80,7 +89,7 @@ section:before {
 }
 
 section{
-   background-color: rgba(0, 0, 0, 0.75);
+   background-color: rgba(0, 0, 0, 0.712);
 
 }
 
@@ -112,7 +121,7 @@ section .inner-container h1 {
 section .inner-container h3 :first-of-type{
    color: white;
 }
-section .inner-container h3 {
+section .inner-container h3{
    font: 18px/1.9em 'Libre Baskerville', serif;
    color: #A8A8A8;
    margin: 0 auto;
