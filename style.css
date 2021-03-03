@@ -8,7 +8,7 @@
 
 
 /* ------------------------------------------------------------------ */
-/* c. About Section
+/* 
 /* ------------------------------------------------------------------ */
 
 
@@ -89,13 +89,11 @@ section:before {
 }
 
 section{
-   background-color: rgba(0, 0, 0, 0.548);
+   background-color: rgba(0, 0, 0, 0.75);
 
 }
 
-.container{
-   background: rgba(0, 0, 0, 0.541);
-}
+
 
 h4{
    color: white;
