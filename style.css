@@ -89,7 +89,7 @@ section:before {
 }
 
 section{
-   background-color: rgba(0, 0, 0, 0.74);
+   background-color: rgba(0, 0, 0, 0.808);
 
 }
 
@@ -107,7 +107,7 @@ section .container {
    display: inline-block;
    vertical-align: middle;
    margin: 0 auto;
-   width: 50%;
+   width: 95%;
    padding-top: 30px;
    padding-bottom: 30px;
    text-align: center;
