@@ -32,8 +32,10 @@
       <div class="container box2 float-left simultaneous">
          <div class="inner-container">
             <h1>Chirag Mittal</h1>
+            <div id="container">
+               <h3 id="text" ></h3>
+            </div>
             <div class="effect-container">
-            <h3 >Full Stack Developer | AI Enthusiast</h3>
             <h3 class="diff"> Intern at Kautex Textron</h3>
             <h3 class="diff">Teaching Assistant at UWindsor</h3>
             <h3 class="diff">Tax Professional at H & R Block</h3>
@@ -63,6 +65,28 @@
    <script src="js/loader.js"></script>
    <script src="js/size.js"></script>
    <script src="js/tooltip.js"></script>
+   <script src="js/scramble.js"></script>
+   <script>
+     const TEXTS = [
+       '- Full Stack Developer -',
+       '- AI Enthusiast -',
+       '- Competitive Programmer -',
+       '- Web Designer -',
+     ];
+
+     const scrambler = new window.Scrambler();
+     const handleScramble = (text) => {
+       document.getElementById('text').innerHTML = text;
+     }
+
+     let i = 0;
+     function printText() {
+       scrambler.scramble(TEXTS[i % TEXTS.length], handleScramble); 
+       setTimeout(printText, 5000);
+       i++;
+     }
+     printText();
+   </script>
  </div
 </body>
 

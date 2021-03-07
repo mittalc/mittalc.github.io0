@@ -89,13 +89,10 @@ section:before {
 }
 
 section{
-   background-color: rgba(0, 0, 0, 0.808);
+   background-color: rgba(0, 0, 0, 0.85);
 
 }
 
-.container{
-   background: rgba(0, 0, 0, 0.733);
-}
 
 
 h4{
@@ -107,7 +104,7 @@ section .container {
    display: inline-block;
    vertical-align: middle;
    margin: 0 auto;
-   width: 95%;
+   width: 85%;
    padding-top: 30px;
    padding-bottom: 30px;
    text-align: center;
@@ -234,3 +231,6 @@ section .social li a:hover { color: rgba(219, 17, 255, 0.226)}
    section .social li { margin: 0 6px; }
 
 }
+
+
+#container {display: flex; flex-direction: column; justify-content: center; text-align: center;}
